@@ -1,0 +1,11 @@
+{
+  "code": 20000,
+  "message": "查询成功",
+  "data": {
+    "id": 10,
+    "name": "@cname",
+    "remark": "@ctitle",
+    "createDate": "@date",
+    "updateDate": "@date",
+  }
+}

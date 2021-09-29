@@ -1,0 +1,12 @@
+{
+  "code": 20000,
+  "message": "查询成功",
+  "data": {
+    "id": 10,
+    "name": "",
+    "sort": "@integer(0,9)",
+    "remark": "@csentence(5,15)",
+    "status|1": [0, 1],
+    "createDate": "@date",
+  }
+}

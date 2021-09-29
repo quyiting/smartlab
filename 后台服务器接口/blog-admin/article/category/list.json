@@ -1,0 +1,12 @@
+{
+  "code": 20000,
+  "message": "查询成功",
+  "data|8": [{
+    "id|+1": 10,
+    "name|1": ["示波器", "信号发生器", "焊接台", "单片机", "开发板", "FPGA板", "损耗器"],
+    "sort": "@integer(0,9)",
+    "remark": "@csentence(5,15)",
+    "status": 1,
+    "createDate": "@date",
+  }]
+}

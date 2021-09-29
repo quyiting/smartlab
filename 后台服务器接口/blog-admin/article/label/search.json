@@ -1,0 +1,14 @@
+{
+  "code": 20000,
+  "message": "查询成功",
+  "data": {
+    "total": "@integer(100,200)",
+    "records|20": [{
+      "id|+1": 10,
+      "categoryName|1": ["危险设备", "通用设备", "环境测试", "物理测试", "实验家具"],
+      "name|1": ["示波器", "信号发生器", "焊接台", "单片机", "开发板", "FPGA板", "损耗器"],
+      "createDate": "@date",
+      "updateDate": "@date"
+    }]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "code": 20000,
+  "message": "查询成功",
+  "data": {
+    "total": "5", // 总记录数
+    // "records|5": [{ 
+    //   "id|+1": 1, //初始值1开始，每条+1
+    //   "username": "@name",
+    //   "password": "xxxxxxx",
+    //   "isAccountNonExpired|1": [1], // 帐户是否过期(1 未过期，0已过期)
+    //   "isAccountNonLocked|1": [0, 1], // 帐户是否被锁定(1 未过期，0已过期)
+    //   "isCredentialsNonExpired|1": [0, 1, 1, 1, 1, 1], // 密码是否过期(1 未过期，0已过期)
+    //   "isEnabled|1": [0, 0, 1, 1, 1, 1, 1, 1], // 帐户是否可用(1 可用，0 删除用户)
+    //   "nickName": "@cname",
+    //   "imageUrl": "http://mengxuegu.com/logo.png",
+    //   "mobile": /1\d{10}/, //正则表达式
+    //   "email": "@email()",
+    //   "createDate": "@date",
+    //   "updateDate": "@date",
+    //   "pwdUpdateDate": "@date",
+    // },
+    // ],
+    "records": [
+
+      {
+        "id": 1,
+        "username": "quyiting",
+        "nickName": "屈亦挺",
+        "password": "xxxxxxx",
+        "isAccountNonExpired|1": [1],
+        "isAccountNonLocked|1": [1],
+        "isCredentialsNonExpired|1": [1],
+        "isEnabled|1": [1],
+        "imageUrl": "http://mengxuegu.com/logo.png",
+        "mobile": /1\d{10}/,
+        "email": "@email()",
+      },
+      {
+        "id": 2,
+        "username": "liyahong",
+        "nickName": "李亚泓",
+        "password": "xxxxxxx",
+        "isAccountNonExpired|1": [1],
+        "isAccountNonLocked|1": [1],
+        "isCredentialsNonExpired|1": [1],
+        "isEnabled|1": [1],
+        "imageUrl": "http://mengxuegu.com/logo.png",
+        "mobile": /1\d{10}/,
+        "email": "@email()",
+      },
+      {
+        "id": 3,
+        "username": "chenxinghao",
+        "nickName": "陈星豪",
+        "password": "xxxxxxx",
+        "isAccountNonExpired|1": [1],
+        "isAccountNonLocked|1": [1],
+        "isCredentialsNonExpired|1": [1],
+        "isEnabled|1": [1],
+        "imageUrl": "http://mengxuegu.com/logo.png",
+        "mobile": /1\d{10}/,
+        "email": "@email()",
+      },
+    ]
+
+  }
+}

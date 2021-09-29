@@ -1,0 +1,20 @@
+{
+  "code": 20000,
+  "message": "成功",
+  "data": {
+    "access_token": "@word(30)",
+    "token_type": "bearer",
+    "refresh_token": "fbdgsbscpakavfpjurbeqegmrrhghv",
+    "expires_in": "@natural", // access_token 有效时长
+    "scope": "all", // 权限范围
+    "userInfo": {
+      "uid": "@natural",
+      "username": "@name",
+      "mobile": /1\d{10}/,
+      "email": "@email",
+      "nickName": "@cname",
+      "imageUrl": "https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif"
+    },
+    "jti": "@word(20)" // access_token 唯一标签
+  }
+}

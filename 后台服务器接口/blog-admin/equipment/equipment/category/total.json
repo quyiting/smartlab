@@ -1,0 +1,44 @@
+{
+  "code": 20000,
+  "message": "成功",
+  "data": {
+    "nameAndValueList": [{
+        "name": "示波器",
+        "value": "@integer(1, 15)"
+      },
+      {
+        "name": "信号发生器",
+        "value": "@integer(1, 15)"
+      },
+      {
+        "name": "焊台",
+        "value": "@integer(1, 15)"
+      },
+      {
+        "name": "单片机",
+        "value": "@integer(1, 15)"
+      },
+      {
+        "name": "开发板",
+        "value": "@integer(1, 15)"
+      },
+      {
+        "name": "FPGA板",
+        "value": "@integer(1, 15)"
+      },
+      {
+        "name": "损耗品",
+        "value": "@integer(2, 30)"
+      }
+    ],
+    "nameList": [
+      "示波器",
+      "信号发生器",
+      "焊台",
+      "单片机",
+      "开发板",
+      "FPGA板",
+      "损耗品"
+    ]
+  }
+}

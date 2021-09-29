@@ -1,0 +1,15 @@
+{
+  "code": 20000,
+  "message": "查询成功",
+  "data": {
+    "id": 1,
+    "title|1": ["示波器", "信号发生器", "焊接台", "单片机", "开发板", "FPGA板", "损耗器"], //标题
+    "labelIds|1-5": ['@integer(10,24)'],
+    "summary|1": /\d{11}/,
+    "imageUrl": "https://fuss10.elemecdn.com/3/63/4e7f3a15429bfda99bce42a18cdd1jpeg.jpeg",
+    "mdContent": "# 1号标题\n# 2号标题",
+    "htmlContent": "<h1><a id=\"1_0\"></a>1号标题</h1>\n<h1><a id=\"2_1\"></a>2号标题</h1>\n",
+    "ispublic|1": [0, 1],
+    "updateDate": "@date",
+  }
+}

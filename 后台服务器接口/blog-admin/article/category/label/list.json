@@ -1,0 +1,12 @@
+{
+  "code": 20000,
+  "message": "查询成功",
+  "data|5": [{
+    "id|+1": 1,
+    "name": "@cname",
+    "labelList|3": [{
+      "id|+1": 10,
+      "name": '@word'
+    }]
+  }]
+}
